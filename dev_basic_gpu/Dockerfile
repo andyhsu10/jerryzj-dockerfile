@@ -1,5 +1,5 @@
-FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
-LABEL maintainer = "Jerry ZJ"
+FROM nvidia/cuda:12.1.0-devel-ubuntu20.04
+LABEL maintainer = "An-Ting Hsu"
 
 ENV DEBIAN_FRONTEND noninteractive
 
